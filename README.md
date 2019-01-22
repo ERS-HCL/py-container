@@ -28,7 +28,7 @@
 # How to deploy it in Kubernets
 - cd rest-app
 - helm package rest-app --debug
-## rest-app-0.1.0.tgz file was created
-helm install rest-app-0.1.0.tgz --name rest-app
-kubectl get svc --watch # wait for a IP
+--## rest-app-0.1.0.tgz file was created
+- helm install rest-app-0.1.0.tgz --name rest-app
+- kubectl get svc --watch # wait for a IP
 
