@@ -5,9 +5,9 @@ name: rest-app
 version: 0.1.0
 keywords:
   - flask
-home: https://github.com/ERS-HCL/py-contaner
+home: https://github.com/ERS-HCL/py-container
 sources:
-  - https://github.com/ERS-HCL/py-contaner
+  - https://github.com/ERS-HCL/py-container
 maintainers:
   - name: Begin Samuel
     email: jbeginsamuel@gmail.com
