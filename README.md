@@ -28,7 +28,12 @@
 # How to deploy it in Kubernets
 - cd rest-app
 - helm package rest-app --debug
---## rest-app-0.1.0.tgz file was created
+- output: rest-app-0.1.0.tgz file was created
 - helm install rest-app-0.1.0.tgz --name rest-app
 - kubectl get svc --watch # wait for a IP
 
+# Uninstall or Remove deployed images and Chart
+- docker images # list images
+- docker rmi py-container
+- output:  Remove created helm packages
+- helm delete rest-app
