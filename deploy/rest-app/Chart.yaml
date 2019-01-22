@@ -1,0 +1,14 @@
+apiVersion: v0
+appVersion: "0.1"
+description: Rest App using Flash Python Framework
+name: rest-app
+version: 0.1.0
+keywords:
+  - flask
+home: https://github.com/ERS-HCL/py-contaner
+sources:
+  - https://github.com/ERS-HCL/py-contaner
+maintainers:
+  - name: Begin Samuel
+    email: jbeginsamuel@gmail.com
+engine: gotpl
