@@ -15,7 +15,7 @@ ARG commit
 LABEL commit="$commit"
 
 ENV PORT 5000
-ENV FLASK_APP rest_app/app.py
+ENV FLASK_APP rest-app/app.py
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
