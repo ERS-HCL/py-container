@@ -26,7 +26,7 @@
 - docker push jbeginsamuel/py-container:latest
 
 # How to deploy it in Kubernets
-- cd rest-app
+- cd deploy
 - helm package rest-app --debug
 - output: rest-app-0.1.0.tgz file was created
 - helm install rest-app-0.1.0.tgz --name rest-app
