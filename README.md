@@ -2,9 +2,8 @@
   In this repository, covered the following feature:
 - Rest App Using Flask Python Framework
 - Dockerfile - container enablement
-- Make targets for build/run/publish/ing the above
-- Helm charts for the app
-- For deployment, See docs in (`deploy`)[./deploy/README.md] directory
+- Helm charts enablement for the app
+- For deployment, visit docs under deployment folder in (`deploy`)[./deploy/README.md] directory
 
 # How to Install docker in CentOS 7
 - sudo groupadd docker
